@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Heroes">
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="633dp"
+        android:layout_height="742dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wallpaper" />
+
+    <TextView
+        android:id="@+id/heroes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:text="Hero Classes"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFighter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Fighter"
+        app:layout_constraintEnd_toEndOf="@+id/heroes"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/heroes"
+        app:layout_constraintTop_toBottomOf="@+id/heroes" />
+
+    <Button
+        android:id="@+id/btnAssassin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Assassin"
+        app:layout_constraintEnd_toEndOf="@+id/btnFighter"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="@+id/btnFighter"
+        app:layout_constraintTop_toBottomOf="@+id/btnFighter" />
+
+    <Button
+        android:id="@+id/btnMage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Mage"
+        app:layout_constraintEnd_toEndOf="@+id/btnAssassin"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="@+id/btnAssassin"
+        app:layout_constraintTop_toBottomOf="@+id/btnAssassin" />
+
+    <Button
+        android:id="@+id/btnArcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Archer"
+        app:layout_constraintEnd_toEndOf="@+id/btnMage"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnMage"
+        app:layout_constraintTop_toBottomOf="@+id/btnMage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mcm.edu.ph.takumicorporation_inheritancerpg20">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TakumiCorporation_InheritanceRPG20">
+        <activity android:name=".Marksman"></activity>
+        <activity android:name=".Hunter" />
+        <activity android:name=".Necromancer" />
+        <activity android:name=".Healer" />
+        <activity android:name=".Thief" />
+        <activity android:name=".Nnija" />
+        <activity android:name=".Knight" />
+        <activity android:name=".Warrior" />
+        <activity android:name=".Plaguewitch" />
+        <activity android:name=".relicBeast" />
+        <activity android:name=".Automaton" />
+        <activity android:name=".geoslime" />
+        <activity android:name=".Mage" />
+        <activity android:name=".Archer" />
+        <activity android:name=".Assassin" />
+        <activity android:name=".Fighterkek" />
+        <activity android:name=".Monster" />
+        <activity android:name=".Heroes" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
